@@ -1,0 +1,18 @@
+.test_mobx{
+    padding:30px 0;
+    >.btns{
+        margin-bottom:20px;
+        button{
+            margin-left:10px;
+        }
+    }
+    >.todo{
+        border:none;
+        border-bottom:1px solid #ccc;
+        >span{
+            display:inline-block;
+            margin-right:10px;
+          
+        }
+    }
+}

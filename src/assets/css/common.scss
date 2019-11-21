@@ -1,0 +1,51 @@
+html,body{
+    margin:0;
+    padding:0;
+    background:#eee;
+}
+// ant布局的外部样式，外面的容器不能产生滚动条；
+.app{
+   position:absolute;
+   top:0;
+   right:0;
+   bottom:0;
+   left:0;
+   overflow: hidden;
+   background:green;
+}
+.h1{
+    color:red;
+    font-size:50px;
+}
+.ant_sider{
+    text-align: center;
+    .logo{
+        // position: fixed;
+        // top: 0;
+        // bottom: 0;
+        height: 56px;
+        width: 92px;
+        word-break: break-word;
+        background: #444;
+        z-index: 1002;
+        .sider_img{
+            margin: 12px auto 0;
+            width: 32px;
+            height: 32px;
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-color: #fff;
+            border: 1px solid #fff;
+            text-align: center;
+        }
+    }
+    }
+
+.left{
+    width:92px;
+    height: 40px;
+    text-align: center;
+}
+
